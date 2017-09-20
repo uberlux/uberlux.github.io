@@ -569,3 +569,43 @@ nav#footer p{
 	background: #FCAC45;
 	border-color: #FCAC45;
 	color: #ffffff;
+}
+
+.video-responsive {
+   height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+ 
+    margin: 0px auto;
+    /* max-width: 800px;*/
+    width: 65%;
+}
+.video-responsive iframe {
+   height: 65%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+@media (max-width: 650px) {
+   .video-responsive {
+       width: 100%;
+   }
+}
+
+#yyt {
+	padding-left: 10px;
+}
+
+p {
+    line-height: 1.1em;
+   }
+
+ h2 {
+    line-height: 1.0em;
+   }
+   div {
+   	width:100%; 
+   	height:auto;
+   }
